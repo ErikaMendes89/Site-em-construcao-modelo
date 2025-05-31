@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em Construção - Em Breve!</title>
+    <meta name="description" content="Site em construção - Em breve algo incrível!">
+    <meta name="author" content="Erika Mendes">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Main Container -->
+    <div class="container-fluid vh-100 d-flex align-items-center justify-content-center position-relative">
+        <div class="row w-100">
+            <div class="col-lg-8 col-xl-6 mx-auto text-center">
+                <!-- Logo/Icon -->
+                <div class="logo-container mb-4" data-aos="fade-down">
+                    <div class="construction-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                </div>
+                
+                <!-- Main Content -->
+                <div class="main-content" data-aos="fade-up" data-aos-delay="200">
+                    <h1 class="display-4 fw-bold mb-3 text-gradient">
+                        Site em Construção
+                    </h1>
+                    <p class="lead mb-4 text-light">
+                        Estamos trabalhando duro para trazer algo <span class="text-warning">incrível</span> para você!
+                    </p>
+                    
+                    <!-- Countdown Timer -->
+                    <div class="countdown-container mb-5" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="row g-3 justify-content-center">
+                            <div class="col-6 col-sm-3">
+                                <div class="countdown-item">
+                                    <div class="countdown-number" id="days">00</div>
+                                    <div class="countdown-label">Dias</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="countdown-item">
+                                    <div class="countdown-number" id="hours">00</div>
+                                    <div class="countdown-label">Horas</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="countdown-item">
+                                    <div class="countdown-number" id="minutes">00</div>
+                                    <div class="countdown-label">Minutos</div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <div class="countdown-item">
+                                    <div class="countdown-number" id="seconds">00</div>
+                                    <div class="countdown-label">Segundos</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Progress Bar -->
+                    <div class="progress-container mb-5" data-aos="fade-up" data-aos-delay="600">
+                        <div class="progress-label mb-2">
+                            <span class="text-light">Progresso do Desenvolvimento</span>
+                            <span class="text-warning fw-bold" id="progress-percent">0%</span>
+                        </div>
+                        <div class="progress custom-progress">
+                            <div class="progress-bar progress-bar-animated" role="progressbar" id="progress-bar"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Email Subscription -->
+                  
+                    
+                    <!-- Social Links -->
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="1000">
+                        <p class="text-light mb-3">Siga-nos nas redes sociais:</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-element" style="top: 10%; left: 10%;">
+            <i class="fas fa-cog"></i>
+        </div>
+        <div class="floating-element" style="top: 20%; right: 15%;">
+            <i class="fas fa-tools"></i>
+        </div>
+        <div class="floating-element" style="bottom: 30%; left: 5%;">
+            <i class="fas fa-hammer"></i>
+        </div>
+        <div class="floating-element" style="bottom: 15%; right: 10%;">
+            <i class="fas fa-wrench"></i>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="script.js"></script>
+</body>
+</html>
